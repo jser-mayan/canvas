@@ -1,12 +1,4 @@
-    // JavaScript
-    
-    Humble = {};
-    Humble.Trig = {};
-    Humble.Trig.init = init;
-    var unit = 100,
-        canvas, context, canvas2, context2,
-        height, width, xAxis, yAxis,
-        draw;
+   
     /**
      * Init function.
      *
@@ -134,4 +126,4 @@
         context.fill();
         context.stroke();
     }
-    Humble.Trig.init()
+   
